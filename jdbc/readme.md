@@ -1,6 +1,18 @@
-# JDBC (Java DataBase Controller)
+# JDBC (Java DataBase Connectivity)
 
-El controlador depende del manejador utilizado, en este caso es MySQL
+API de Java para acceder a una base de datos mediante sentencias SQL. El controlador depende del manejador utilizado, en este caso es MySQL
+
+**Ventajas:**
+- Procesamiento simple de SQL
+- Rendimiento bueno con grandes cantidades de datos
+- Bueno para aplicaciones pequeñas
+- Fácil de aprender
+
+**Desventajas:**
+- No hay encapsulamiento (se puede ver la implementación de la base de datos)
+- En aplicaciones grandes puede ser complejo
+- Se necesita conocer el lenguaje de la base de datos.
+
 
 ## Descarga del controlador JDBC para MySQL
 https://dev.mysql.com/downloads/connector/j/5.1.html
