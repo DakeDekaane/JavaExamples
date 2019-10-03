@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 3/10/2019 01:34:49 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="hibernatetest.Prebes" table="Prebes" catalog="Prebes39" optimistic-lock="version">
+        <id name="prebeId" type="int">
+            <column name="prebe_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="nombre" length="30" not-null="true" />
+        </property>
+        <property name="edad" type="int">
+            <column name="edad" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
